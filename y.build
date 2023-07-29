@@ -1,0 +1,9 @@
+name=y-build
+version=0.1.0
+main=build.c
+
+dependencies=y-lib
+
+y-lib_version=*
+y-lib_source=local
+y-lib_link=../y-lib
